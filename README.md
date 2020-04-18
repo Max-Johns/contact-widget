@@ -3,7 +3,9 @@
 You need to install this extension on your latest version Magento 2.3.4 
 For the installation you need follow below commands
 php bin/magento setup:upgrade
+
 php bin/magento setup:di:compile
+
 php bin/magento setup:static-content:deploy -f
 php bin/magento cache:flush
 
